@@ -1,4 +1,5 @@
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -352,7 +353,7 @@ private void printTreeFormat1(TreeNode node, String prefix) {
         return;
     }
 
-    System.out.println(prefix + node.val + "---------------------------");
+    System.out.println(prefix + node.val + "-----------------------");
     printTreeFormat1(node.left, prefix + "     ");
     printTreeFormat1(node.right, prefix + "     ");
 }
@@ -416,6 +417,5 @@ public static void main(String[] args) {
     System.out.println("Mediana da árvvore: " + abb.median());
     	 }
      }
-
 
 
