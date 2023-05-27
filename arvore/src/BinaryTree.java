@@ -1,4 +1,3 @@
-package modelo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,7 @@ class TreeNode {
     }
 }
 
-public class AugmentedBinarySearchTree {
+public class BinaryTree {
     private TreeNode root;
 
     /**
@@ -380,7 +379,7 @@ private void printTreeFormat2(TreeNode node) {
  * @param args os argumentos de linha de comando.
  */
 public static void main(String[] args) {
-    AugmentedBinarySearchTree abb = new AugmentedBinarySearchTree();
+    BinaryTree abb = new BinaryTree();
 
     // Inserir os valores da entrada
     abb.insert(32);
